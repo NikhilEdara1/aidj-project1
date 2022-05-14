@@ -1,0 +1,26 @@
+#head{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+#note{
+    font-size: 17px;
+}
+#naM{
+    font-size: 20px;
+}
+canvas{
+    border-radius: 20px;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    
+}
+@keyframes animate{
+from{
+    border: 5px solid red;
+}
+to{
+    border: 15px solid yellow;
+}
+}
